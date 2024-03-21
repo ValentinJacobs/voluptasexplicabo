@@ -1,0 +1,40 @@
+{
+  "name": "voluptasexplicabo",
+  "version": "1.12.0",
+  "description": "Check if NPM package names conflict",
+  "main": "./build/index.js",
+  "author": "MajorMcLaughlin",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ValentinJacobs/voluptasexplicabo.git"
+  },
+  "keywords": [
+    "npm",
+    "nostrum",
+    "name",
+    "names",
+    "conflict",
+    "quam",
+    "rerum",
+    "vel",
+    "any",
+    "a",
+    "voluptatem",
+    "typed",
+    "ts"
+  ],
+  "scripts": {
+    "build": "bob build",
+    "prepublishOnly": "yarn build && yarn test",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@bconnorwhite/bob": "^1.9.7",
+    "jest": "^26.4.2"
+  },
+  "dependencies": {
+    "placeatsed": "^1.0.1",
+    "suntatque": "^1.0.0"
+  }
+}
